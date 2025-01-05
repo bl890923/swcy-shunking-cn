@@ -1,0 +1,55 @@
+﻿/*优势*/
+.pro_tit {background: url(../images/20160414112742_7343.jpg) no-repeat left center; height: 40px; line-height: 40px; margin: 20px 0;}
+.pro_tit b{font-size: 20px; color: #fff; padding-left: 25px; letter-spacing: 4px; float: left;}
+.pro_tit span {font-size: 14px; color: #fff; padding-right: 25px; float: right;}
+.pro_tit span em {font-style: normal;}
+
+.ms {background: #fff7ed none repeat scroll 0 0;font-family: "Microsoft YaHei",serif;height: 1206px;overflow: hidden;width: 744px;}
+.ms h4 {height: 92px;margin-bottom: 29px;padding-top: 75px;}
+.msk {border-bottom: 2px dashed #cfcbc6;height: 300px;}
+.msk img {display: block;float: left;margin: 35px 0 0;width: 230px; height:auto}
+.msz {float: left;margin: 35px 0 0 27px;}
+.msz h5 {color: #000000;font-size: 24px;font-weight: normal;}
+.msz h5 b {color: #cf0b0f;font-weight: bold;}
+.msz h5 em {color: #cac4bc;display: block;font-size: 24px;font-style: normal;font-weight: bold;line-height: 24px;margin-top: 10px;text-transform: uppercase;}
+.msz h5 span {color: #cac4bc;display: block;font: 14px Arial;}
+.msz p {background: rgba(0, 0, 0, 0) url("../images/ms_06.jpg") no-repeat scroll left 12px;margin-top: 10px;padding-left: 30px;}
+.msz p em {color: #000000;display: block;font-size: 14px;font-style: normal;line-height: 36px;}
+.msz p em span {color: #cf0b0f;font-size: 16px;font-weight: bold;}
+.msp {background: #cf0b0f none repeat scroll 0 0;color: #e8a5a6;float: right;font-size: 30px;font-weight: bold;height: 185px;margin-top: 54px;padding-top: 40px;text-align: center;width: 57px;}
+.msk1 {border-bottom: 2px dashed #cfcbc6;height: 300px;}
+.msk1 img {display: block;float: right;margin: 35px 0 0;width: 230px;}
+.msz1 {display: inline;float: left;margin: 35px 0 0 70px;text-align: right;}
+.msz1 h5 {color: #000000;font-size: 24px;font-weight: normal;}
+.msz1 h5 b {color: #cf0b0f;font-weight: bold;}
+.msz1 h5 em {color: #cac4bc;display: block;font-size: 24px;font-style: normal;font-weight: bold;line-height: 24px;margin-top: 10px;text-transform: uppercase;}
+.msz1 h5 span {color: #cac4bc;display: block;font: 14px Arial;}
+.msz1 p {background: rgba(0, 0, 0, 0) url("../images/ms_06.jpg") no-repeat scroll right 12px;margin-top: 10px;padding-right: 30px;}
+.msz1 p em {color: #000000;display: block;font-size: 14px;font-style: normal;line-height: 36px;}
+.msz1 p em span {color: #cf0b0f;font-size: 16px;font-weight: bold;}
+.msp1 {background: #cf0b0f none repeat scroll 0 0;color: #e8a5a6;float: left;font-size: 30px;font-weight: bold;height: 185px;margin-top: 54px;padding-top: 40px;text-align: center;width: 57px;}
+.msz2 {float: left;margin: 35px 0 0 15px;text-align: right;}
+.msz2 h5 {color: #000000;font-size: 24px;font-weight: normal;}
+.msz2 h5 b {color: #cf0b0f;font-weight: bold;}
+.msz2 h5 em {color: #cac4bc;display: block;font-size: 24px;font-style: normal;font-weight: bold;line-height: 24px; margin-top: 10px;text-transform: uppercase;}
+.msz2 h5 span {color: #cac4bc;display: block;font:14px Arial;}
+.msz2 p {background: rgba(0, 0, 0, 0) url("../images/ms_06.jpg") no-repeat scroll right 12px;margin-top: 10px;padding-right: 30px;}
+.msz2 p em {color: #000000;display: block;font-size: 14px;font-style: normal;line-height: 36px;}
+.msz2 p em span {color: #cf0b0f;font-size: 16px;font-weight: bold;}
+.nones {border: 0 none;}
+/*流程*/
+.process {padding-top: 15px;}
+.process ul {background: url("../images/20160522231635_3687.jpg") no-repeat scroll 0 22px;height: 200px;padding-left: 13px;width: 727px;}
+.process ul li {float: left;height: 94px;text-align: center;}
+.process ul .none {padding-right: 0;padding-left: 0;}
+.process ul li img {display: block;margin: 0 auto;padding-bottom: 15px;width: 48px;}
+.process ul li a {background: url(../images/20160520180848_9156.png) no-repeat scroll center 0;color: #25282f;display: block;font-size: 14px;height: 48px;width: 140px;}
+.process ul li a:hover, .process ul li a.cur {background: url(../images/20160520180848_8062.png) no-repeat scroll center 0;font-weight: bold;}
+.process ul li.lcs {padding-left: 140px;}
+.process .lc-c {position: relative;}
+.process .lc-c p {left: 61px;position: absolute;text-align: center;top: 94px;margin: 0;}
+.process .lc-c p a {color: #25282f;font-size: 14px;}
+.process .lc-c p img {display: block;padding-bottom: 15px;}
+
+
+.about p span {color:#cf0b0f; font-size: 16px; }

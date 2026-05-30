@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新闻内容</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  <link href="skcms/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="skcms/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/pagemode.js"></script>
+
+</head>
+<body>
+  <nav class="header">
+    <div class="logo">
+      <img src="images/LOGO.png"/>
+    </div>
+    <div class="dhzt">
+      <p>让设计印刷更简单</p>
+    </div>
+    <div class="dhcd">
+      <img src="images/sg.png" alt="" onclick="Open()">
+    </div>
+  </nav>
+  <div class="cdl">
+    <div class="close"><a onclick="Close()">X</a></div>
+    <div class="dhlnr">
+      <ul>
+        <li><a href="index.html">首页</a></li><hr/>
+        <li><a href="jmmpdz.html">精美名片</a></li><hr/>
+        <li><a href="zyycy.html">彩页与折页</a></li><hr/>
+        <li><a href="hcdz.html">精致画册</a></li><hr/>
+        <li><a href="cpzx.html">产品中心</a></li><hr/>
+        <li><a>成功案例</a></li><hr/>
+        <li><a href="xwlby.html">新闻中心</a></li><hr/>
+        <li><a>生产设备</a></li><hr/>
+        <li><a>联系我们</a></li><hr/>
+      </ul>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="bannner-div">
+			<ul class="bannner1">
+				<li>
+					<img src="images/banana2.png">
+				</li>
+				<li>
+					<img src="images/banana3.png">
+				</li>
+				<li>
+					<img src="images/banner1.png">
+				</li>
+			</ul>
+			<div class="banner-i">
+			</div>
+		</div>
+  </div>
+  <div class="center1">
+    <div class="xwny">
+			<div class="font-0ne">
+        <h1>制作企业画册的价值是什么？</h1>
+        <p><img src="images/dingwei.png" alt=""><a>新闻资讯</a> > <a>行业资讯</a>&nbsp;<img src="images/riqi.png" alt="">发布日期：2021-07-05</p>
+        <div class="hxian"> </div>
+      </div>
+      <div class="xwnyr">
+        <img src="images/huace1.png" alt="">
+        <p>成都舜王彩印，致力于制作更符合企业需求的画册，在企业画册设计，画册印刷，彩印印刷上设计出更符合企业形象的作品。我们在印刷画册报价，彩印报价上都是给的印刷厂实际报价，我们不赚取客户印刷价格，我们赚取的是企业设计画册的价格。
+
+          一本好的企业画册一定是具有企业精神和企业特色的画册。舜王彩印的设计画册设计师就总结一下两点在设计制作企业画册时需要注意的。
+       
+       第一，做的画册要有公司特色
+       
+          现在市场上流传许多模板画册，很多公司为了能省几个钱就套用别人现有的画册，这样印刷出来的画册能好看吗，这不是张冠李戴了吗，没有任何公司特色。这里说的公司特色是指做出来的画册有公司文化和内涵。在一些展示企业形象画册上就可以写企业结构、企业业务、未来展望等等。
+       
+       第二，画册能够展现企业精神
+       
+          好的画册不仅是外表看起来精美，它的内容也要充实有灵魂，能够展现企业精神。企业精神是通过企业里面每一个人的精气神来体现的。企业里面每一个人是积极向上的，那么表现出来的企业精神也是积极向上的。在画册设计时也要表现出这种精神，这样的画册更能够在各个公司画册里面脱颖而出。</p>
+          <div class="nrpp">
+            <a>上一篇</a>
+            <a>下一篇</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="dibu">
+    <p>成都舜王有限公司</p>
+    <p>版权所有</p>
+  </div>
+  <div class="foot">
+    <ul>
+      <li>
+        <img src="images/shouye.png" alt="">
+        <a href="index.html">首页</a>
+      </li>
+      <li>
+        <img src="images/cpzxy.png" alt="">
+        <a href="cpzx.html">产品中心</a>
+      </li>
+      <li>
+        <img src="images/dhzx.png" alt="">
+        <a>电话咨询</a>
+      </li>
+      <li>
+        <img src="images/xwzxy.png" alt="">
+        <a>立即下单</a>
+      </li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+  // 导航栏
+  function Close(){
+    $(".cdl").hide();
+  }
+  function Open(){
+    $(".cdl").show();
+  }
+  function ppys(){
+    $("#ppys").show();
+    $("#tdys,#scys,#fwys").hide();
+  }
+  function tdys(){
+    $("#tdys").show();
+    $("#ppys,#scys,#fwys").hide();
+  }
+  function scys(){
+    $("#scys").show();
+    $("#tdys,#ppys,#fwys").hide();
+  }
+  function fwys(){
+    $("#fwys").show();
+    $("#tdys,#scys,#ppys").hide();
+  }
+
+  // $(".con").eq(0).show();
+// $(".btn span").click(function(){
+//     var num =$(".btn span").index(this);
+//     $(".con").hide();
+//     $(".con").eq(num).show();
+//     $(this).attr("class","active spanList");
+//     $(this).siblings().attr("class","spanList");
+// });
+  // banner轮播js代码
+    var number = 0;
+			var len = 0;
+			$(function(){
+				 bannerfunction('.bannner1','',2000);
+			});
+			/**执行方法
+			 * @param {Object} divname:div的class或者id
+			 * @param {Object} n_name :如果需要增加可以自己写个名字来给相应的动画效果
+			 * @param {Object} n_time :动画切换时间
+			 */
+			function bannerfunction(divname,n_name,n_time){
+				var lis = $(divname).children();
+				
+				len = lis.length;
+				//根据li数量追加i数量,并给第一个添加active
+				for (var i = 0; i < len; i++) {
+					if(i == 0){
+						$(divname+'~div').append('<i  class="active"></i>')
+					}else{
+						$(divname+'~div').append('<i ></i>')
+					}
+				}
+				var widths = $(divname).width();//指定获取放入banner的容器div
+				console.log($(window).width());
+				//点击i切换事件
+				$(divname+'~div i').click(function() {
+					$(divname+'~div i').removeClass('active');
+					$(this).addClass('active');
+					var nu = $(this).index()-1;
+					number = nu;
+					animate_banner(divname,widths)
+				})
+				
+				$(divname).children().css('display','block')//阻止刷新弹跳
+				$(divname).width(widths*len)//给ul指定宽度
+				setInterval(
+					function(){
+						animate_banner(divname,widths)
+					},
+					n_time);//动画
+			}
+			
+			/**animate动画切换
+			 * @param {Object} clasname :容器class或id
+			 * @param {Object} widths   :宽度
+			 */
+			function animate_banner(clasname,widths){
+				var left = '';
+				//自动给i添加点击样式
+				$(clasname + '~div i').removeClass( 'active' )
+				var idiv = $(clasname+'~div i').eq( number + 1 ).addClass('active');
+				//如果数量小于li长度,每一次+1
+				if(   number < len-1 ){
+					number = number +1 ;
+					left = '-' + number * widths + 'px';//距离左边负像素点.
+				}else {
+					//否则数量为0跳到第一个li
+					number = 0
+					left = '0px';//距离左边0像素点
+				}
+				//动画事件animate
+				$(clasname).animate({marginLeft:left})
+			}
+      // banner轮播js结束
+      $('#myCarousel').carousel({interval:2000});
+      $('#myCarousel1').carousel({interval:2000});
+  </script>
+</body>
+</html>

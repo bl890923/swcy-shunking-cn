@@ -1,0 +1,260 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*common*/
+.mb10 { margin-bottom:10px;}
+.ml10 { margin-left:10px;}
+.bg { background:#FFF;}
+/**/
+
+/* 切换图 */
+.banner{min-width:900px;height:500px;position:relative;overflow:hidden;}
+.banner .bd{ position:relative;z-index:0;}
+.banner .bd ul{ width:100% !important; }
+.banner .bd li{ width:100% !important;height:500px;}
+.banner .bd li a {display:block;height:500px;}
+.banner .hd{ width:100%;position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; text-align:center; }
+.banner .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:90px; background-color:#FFF;height:10px; margin:4px;overflow:hidden;}
+.banner .hd ul .on{filter:alpha(opacity=100);opacity:1; background-color:#d30b17; width:90px;}
+.banner .prev, .banner .next {cursor:pointer;display:none;width:100px;height:100px;left:5%;margin-top:-30px;opacity:0.5;position:absolute;top:45%;z-index:1;}
+.banner .prev {background-color:#606264;background:url("../images/left.gif") no-repeat scroll 0 0;}
+.banner .next {background-color:#606264;background:url("../images/right.gif") no-repeat scroll 0 0;left:auto;right:5%;}
+
+
+
+/**/
+.sous { height: 54px; background: #ffeacf; border-bottom: 1px solid #ccbba6;
+    font-family: "Microsoft YaHei", serif; overflow: hidden;}
+.soz { float: left; line-height: 54px; font-size: 14px; color: #666666; font-weight: bold;}
+.soz a { margin: 0 5px; color: #666666; font-weight: normal;}
+.soy { float: right; margin-top: 14px;}
+.soy input { float: left; font-family: "Microsoft YaHei", serif}
+.k1 { width: 251px; height: 26px; border: 2px solid #ead9c3; background: none; font-size: 12px; color: #c0b3a3; line-height: 26px; padding-left: 11px; border-width: 2px 0 2px 2px;}
+.k2 { width: 27px; height: 30px; background: url(../images/sot.jpg) no-repeat; border: 0;}
+/**/
+.zs {height: 396px; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.zs h4 { float: left; width: 335px; font-size: 30px; color: #000000; text-align: center; font-weight: normal; margin-top: 120px;}
+.zs h4 span { font-size: 42px; color: #cf0b0f; font-weight: bold;}
+.zs h4 em { display: block; font: 14px Arial; color: #a39d97; text-transform: uppercase; padding-bottom: 20px; background: url(../images/zsx.jpg) no-repeat bottom right;}
+.zs h4 a { display: block; width: 173px; height: 27px; font-size: 14px; color: #cf0b0f;/* background: url(../images/zsj.jpg) no-repeat 123px center; */text-align: center; line-height: 27px; border: 2px solid #959595; margin: 30px auto 0;}
+.zsk { float: right; width: 385px; height: 300px; background: url(../images/zst.jpg) no-repeat; margin-top: 42px; padding:26px 0 0 255px;display: block; *padding:24px 0 0 255px; _padding:24px 0 0 255px;}
+.zsk span { display: block; font-size: 15px; color: #000000; height: 47px; line-height: 47px;  margin-top: 8px;}
+.zsk span:hover{color:#cf0b0f;}
+/**/
+.qs { height: 596px; background: url(../images/qsb.jpg) #ffeacf center 0 no-repeat;    overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.qs h4 { text-align: center; font-size: 30px; color: #000000; font-weight: normal; padding-top: 55px; line-height: 30px; height: 126px;}
+.qs h4 span { font-size: 38px; color: #cf0b0f; font-weight: bold;}
+.qs h4 em { display: block; font-size: 14px; color: #a39583; text-transform: uppercase; font-weight: normal; font-style: normal;}
+.qs ul { width: 1000px; overflow: hidden;}
+.qs li { width: 272px; padding:20px 0 0 20px; height: 183px; float: left;}
+.qs .ql em { font-size: 16px; color: #000000; font-style: normal;}
+.qs .ql em span { font-size: 24px; color: #cf0b0f; font-weight: bold;}
+.qs .ql p { font-size: 14px; color: #000000; line-height: 26px;}
+.qs .qsl1 em { font-size: 16px; color: #000000; font-style: normal;}
+.qs .qsl1 em span { font-size: 24px; color: #cf0b0f; font-weight: bold;}
+.qs .qsl1 p { font-size: 14px; color: #000000; line-height: 26px;}
+.qs .qsl ,.qs .qsl1 { display: inline-block; padding-left: 420px; text-align: right;}
+
+/**/
+.xj { height: 149px; border-bottom: 2px solid #cb0b0f; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.xj h4 { width: 186px; height: 107px; background: url(../images/xjk.jpg) no-repeat; text-align: center; font-size: 18px; color: #FFFFFF; font-weight: normal; padding-top: 42px; float: left;}
+.xj h4 span { display: block; font-size: 36px; color: #FFFFFF; font-weight: bold;}
+.xjz { float: left;}
+.xjz a { display:inline-block; float: left; margin: 53px 0 0 20px; padding-right: 40px; background: url(../images/xjl.jpg) no-repeat right center;}
+.xjz em { display: block; float: left; width: 47px; height: 47px; background: url(../images/xjy.jpg) no-repeat; font: 24px Arial; color: #FFFFFF; text-align: center; line-height: 40px;}
+.xjz p { float: left; margin-left: 16px; font:12px Arial; color: #7f7f7f; text-transform: uppercase;}
+.xjz p span { display: block; font: 22px "Microsoft YaHei"; color: #000000; font-weight: bold; line-height: 30px;}
+/**/
+.fs {margin-bottom: 60px; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.fsh { height: 120px; text-align: center; font-size: 30px; color: #000000; font-weight: normal; padding-top: 44px; background: url(../images/fs_03.jpg) no-repeat 0 128px;}
+.fsh span { font-size: 38px; color: #cf0b0f; font-weight: bold;}
+.fsh em { display: block; font-size: 20px; color: #000000; font-style: normal;}
+.fsz { float: left; width: 227px; background: #cf0b0f;}
+.fsz h4 { height: 59px; font-size: 25px; text-align: center; padding-top: 20px; overflow: hidden;}
+.fsz h4 a { color: #FFFFFF;}
+.fsz h4 span { display: block; font-weight: normal; font: 16px Arial; color: #FFFFFF; text-transform: uppercase;}
+.fszk { width: 220px; background: #FFFFFF; margin: 0 auto;}
+.fszk .D { margin-left: 5px; width: 210px; height: 50px; background: #fff; line-height: 50px; border-bottom: 1px solid #000000;}
+.fszk .D a { display: block; font-size: 16px; font-weight: bold; color: #323232; text-align: center;}
+.fszk .D a:hover { color: #cf0b0f;}
+.fszk ul { margin-bottom: 10px;}
+.fszk li { padding-left: 13px; background: url(../images/fs_14.jpg) no-repeat left 13px;}
+.fszk li a { font-size: 14px; color: #323232; line-height: 34px;}
+.fsz p { text-align: center;}
+.fsz p a { font-size: 14px; color: #FFFFFF; line-height: 34px; font-weight: bold;}
+.fsy { width: 760px; float: right;}
+.fsy li { float: left; width: 243px; overflow: hidden; display: inline-block;
+    text-align: center;
+    margin: 0 0 5px 7px;
+}
+.fsy li img { display: block; width: 239px; height: 179px; padding: 1px; border: 1px solid #8f8f8f;}
+.fsy li span { font-size: 14px; color: #000000; line-height: 36px;}
+/**/
+.lr { height: 727px; background: url(../images/lrb.jpg) no-repeat center 0; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.lr h4 { text-align: center; font-size: 30px; color: #000000; font-weight: normal; height: 133px; padding-top: 45px;}
+.lr h4 span { font-size: 38px; color: #cf0b0f; font-weight: bold;}
+.lr h4 em { font:36px Impact; color: #000000;}
+.lr h4 p { font: 14px Arial; color: #9a917c; text-transform: uppercase;}
+.lr li { text-align: center; width: 333px; float:left; background: url(../images/lrx.jpg) no-repeat right 0;}
+.lr li em { display: block; font-size: 16px; color: #000000; line-height: 31px; height: 100px; font-style: normal;}
+.lr li span { display: block; font-size: 30px; color: #333333; margin-bottom: 10px;}
+.lr li p { padding: 70px 0 16px 0; background: url(../images/lryy.jpg) no-repeat bottom center;}
+.lr li p img { display: block; width: 271px; height: 271px; margin: 0 auto;}
+.lr .nones { background: none;}
+/**/
+.gg { height: 176px; background: url(../images/ggb.jpg) no-repeat center 0; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.gg p { float: right; text-align: right; font-size: 14px; color: #FFFFFF; margin-top: 44px;}
+.gg span { display: block;  font: 36px Impact; color: #FFFFFF; line-height: 36px; font-style: italic; margin: 5px 0;}
+.gg a { display: block; width: 173px; height: 27px; border: 2px solid #FFFFFF; float: right; font-size: 14px; color: #FFFFFF; text-align: center; line-height: 27px; background: url(../images/ggj.png) no-repeat 130px 10px;}
+/**/
+.ms { height: 1815px; overflow: hidden; font-family: "Microsoft YaHei", serif; background:#fff7ed;}
+.ms h4 { height: 92px; padding-top: 75px; margin-bottom: 29px;}
+.msk { height: 400px; border-bottom: 2px dashed #cfcbc6;}
+.msk img { display: block; float:left; width: 349px; height: 347px; margin: 22px 0 0 0;}
+.msz { float: left; margin: 65px 0 0 60px;width: 510px;}
+.msz h5 { font-size: 24px; color: #000000; font-weight: normal;}
+.msz h5 b { font-weight: bold; color: #cf0b0f;}
+.msz h5 em { display: block; font-size: 24px; color: #cac4bc; font-weight: bold; font-style: normal; text-transform: uppercase; line-height: 24px; margin-top: 10px;}
+.msz h5 span { display: block; font: 14px Arial; color: #cac4bc;}
+.msz p { margin-top: 10px; background: url("../images/msz1.jpg") no-repeat 7px 12px ;}
+.msz p em { display: block; padding-left: 30px; font-size: 14px; color: #000000; font-style: normal; line-height: 36px;background: url("../images/xdl.png") no-repeat left 12px;}
+.msz p em span { font-size: 16px; color: #cf0b0f; font-weight: bold;}
+.msp { float: right; width: 57px; height: 185px; background: #cf0b0f; margin-top: 54px; font-size: 30px; color: #e8a5a6; font-weight: bold; text-align: center; padding-top: 40px; }
+
+.msk1 { height: 400px; border-bottom: 2px dashed #cfcbc6;}
+.msk1 img { display: block; float:right; width: 349px; height: 347px; margin: 22px 0 0 0;}
+.msz1 { float: left; display: inline; margin: 65px 0 0 131px; text-align: right;}
+.msz1 h5 { font-size: 24px; color: #000000; font-weight: normal;}
+.msz1 h5 b { font-weight: bold; color: #cf0b0f;}
+.msz1 h5 em { display: block; font-size: 24px; color: #cac4bc; font-weight: bold; font-style: normal; text-transform: uppercase; line-height: 24px; margin-top: 10px;}
+.msz1 h5 span { display: block; font: 14px Arial; color: #cac4bc;}
+.msz1 p { margin-top: 10px; padding-right: 30px; background: url(../images/ms_06.jpg) no-repeat right 12px;}
+.msz1 p em { display: block; font-size: 14px; color: #000000; font-style: normal; line-height: 36px;}
+.msz1 p em span { font-size: 16px; color: #cf0b0f; font-weight: bold;}
+.msp1 { float: left; width: 57px; height: 185px; background: #cf0b0f; margin-top: 54px; font-size: 30px; color: #e8a5a6; font-weight: bold; text-align: center; padding-top: 40px; }
+
+.msz .msp2 {}
+.msz2 { float: left; margin: 65px 0 0 73px; text-align: right;}
+.msz2 h5 { font-size: 24px; color: #000000; font-weight: normal;}
+.msz2 h5 b { font-weight: bold; color: #cf0b0f;}
+.msz2 h5 em { display: block; font-size: 24px; color: #cac4bc; font-weight: bold; font-style: normal; text-transform: uppercase; line-height: 24px; margin-top: 10px;}
+.msz2 h5 span { display: block; font: 14px Arial; color: #cac4bc;}
+.msz2 p { margin-top: 10px;background: url(../images/msz1.jpg) no-repeat right 12px;margin-right: 7px;}
+.msz2 p em { display: block;padding-right: 30px; font-size: 14px; color: #000000; font-style: normal; line-height: 36px;background: url("../images/xdl.png") no-repeat right 12px;margin-right: -7px;}
+.msz2 p em span { font-size: 16px; color: #cf0b0f; font-weight: bold;}
+
+.nones { border: 0;}
+/**/
+.xd { height: 619px; background: url(../images/xdb.jpg) repeat-x; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.xd h4 { text-align: center; font-size: 30px; color: #000000; font-weight: normal; height: 104px; padding-top: 50px; background: url(../images/xdx.png) no-repeat 0 122px;}
+.xd h4 span { font-size: 38px; color: #cf0b0f; font-weight: bold;}
+.xd h4 p { font: 13px Arial; color: #bcac98; text-transform: uppercase;}
+.xd ul { float: left; width: 258px; height: 387px; border: 3px solid #666666; background: #FFFFFF; padding-top: 18px;}
+.xd li { margin: 0 0 10px 28px; display: inline-block;}
+.xd li a { display: block; width: 123px; height: 36px; background: #666666 url(../images/xdj.png) no-repeat 50px center; font-size: 14px; color: #FFFFFF; line-height: 36px; padding-left: 79px;}
+.xd li a:hover, .xd li.cur a{ background: #cf0b0f url(../images/xdj.png) no-repeat 50px center;}
+.xdk { float: right; width: 720px; position: relative;}
+.xdk img { display: block; width: 716px; height: 407px; padding: 1px; border: 1px solid #8f8f8f;}
+.xdz { position: absolute; left: 2px; top:246px; width: 381px; height: 116px; background: url(../images/xdtm.png) repeat-x; font-size: 14px; color: #FFFFFF; line-height: 24px; padding: 25px 25px 0 29px;}
+.xdz span { display: block; font-size: 14px; color: #FFFFFF; font-weight: bold;}
+.xdk p { position: absolute; right: 2px; top:2px;}
+.xdk p a { display: block; width: 31px; height: 32px; background: url(../images/xdtm1.png) repeat-x; margin-bottom: 1px; font: 14px Arial; font-weight: bold; color: #FFFFFF; text-align: center; line-height: 32px;}
+.xdk p a:hover, .xdk p .cur { background: #cf0b0f;}
+/**/
+.ss { height: 638px; font-family: "Microsoft YaHei", serif;}
+.ss h4 { height: 156px; font-weight: normal; font-size: 30px; color: #212121; text-align: center; padding-top: 50px;}
+.ss h4 span { font-size: 38px; color: #cf0b0f; font-weight: bold;}
+.ss h4 p { font-size: 18px; color: #212121; margin: 0 0 10px 0;}
+.ss h4 p em { font-style: normal; color: #cf0b0f;}
+.ss h4 a { font-size: 14px; color: #000000; display: block; width: 284px; height: 32px; border: 2px solid #a0a0a0; line-height: 32px; margin: 0 auto;}
+.ssk { height: 110px; position: relative;}
+.ssk li { float:left; width: 181px; height: 110px; margin-right: 23px;}
+.ssk li a { display:block; width: 181px; height: 110px; position: relative;}
+.ssk li img { display: block; width: 181px; height: 110px;}
+.ssk li p { position: absolute; left: 0; top: 83px; width: 181px; height: 27px; background: url(../images/sstm.png) repeat-x; font-size: 12px; color: #ffffff; text-align: center; line-height: 27px;}
+.ssk .nones {  margin-right: 0;}
+.ssa { position: absolute; left: -48px; top: 33px;}
+.ssa1 { position: absolute; right: -48px; top: 33px;}
+.ssb { height: 204px; background: url(../images/ssb.jpg) no-repeat; margin-top: 54px;}
+.ssb p { float: right; text-align: right; font-size: 14px; color: #FFFFFF; margin: 50px 60px 0 0;}
+.ssb span { display: block;  font: 36px Impact; color: #FFFFFF; line-height: 36px; font-style: italic; margin: 5px 0;}
+.ssb a { display: block; width: 173px; height: 27px; border: 2px solid #FFFFFF; float: right; font-size: 14px; color: #FFFFFF; text-align: center; line-height: 27px; background: url(../images/ggj.png) no-repeat 159px 9px;}
+/**/
+.gg1 { height: 246px; background: url(../images/ggb1.jpg) no-repeat center 0;font-family: "Microsoft YaHei", serif;}
+.ggz { height: 226px; width:900px; margin:auto;background: url(../images/ggtm.png) repeat-x; text-align: center; padding-top: 40px;}
+.ggz em { font-style: normal; font-size: 23px; font-weight: bold; color: #FFFFFF;}
+.ggz em span { font-size: 43px; color: #fef33a;}
+.ggz p { font-size: 13px; color: #FFFFFF; line-height: 28px; margin-top: 10px;}
+.ggz a { display: block; width: 199px; height: 29px; border: 2px solid #FFFFFF; font-size: 18px; color: #FFFFFF; text-align: center; line-height: 29px; margin:10px auto 0;}
+/**/
+.dk { height: 989px; background: #ffeacf; overflow: hidden; font-family: "Microsoft YaHei", serif;}
+.dkk { height: 400px;}
+.dkk h4 { height: 74px; padding-top: 57px; overflow: hidden;}
+.dkk h4 a { display: block; float: left; width: 500px; height: 41px; background: #666666; line-height: 41px;}
+.dkk h4 a span { display:block; float: left; font-size: 18px; color: #FFFFFF; font-weight: normal; padding-left: 20px;}
+.dkk h4 a em { display: block; float: right; font-style: normal; font: 12px Arial; color: #FFFFFF; line-height: 41px; text-transform: uppercase; padding-right: 15px;}
+.dkk h4 a:hover, .dkk h4 .cur { background: #cf0b0f;}
+.dkk li { float: left; width: 225px; margin-right: 33px; position: relative;}
+.dkk li img { width: 221px; height: 214px; display: block; padding: 1px; border: 1px solid #8f8f8f;}
+.dkk li span { display: block; position: absolute; left: 0; top: 185px; width: 225px; height: 33px; background: url(../images/dktm.png) repeat-x; font-size: 15px; color: #FFFFFF; text-align: center; line-height: 33px;}
+.dkk .nones { margin-right: 0;}
+
+.dkk1 { height:565px; border-bottom: 1px solid #ccbba6;}
+.dkz { float: left; width: 484px;}
+.dkz h4 { height: 41px; overflow: hidden; background: #666666; font-weight: normal; margin-bottom: 33px;}
+.dkz h4 span { display: block; float: left;}
+.dkz h4 span a { display: block; float: left; width: 108px; height: 42px; font-size: 18px; color: #FFFFFF; text-align: center; line-height: 42px;}
+.dkz h4 span a:hover, .dkz h4 span.cur a{ background: #cf0b0f;}
+.dkz h4 em { float: right;}
+.dkz h4 em a { font: 12px Arial; color: #FFFFFF; text-transform: uppercase; line-height: 42px; margin-right: 15px;}
+.dkz dl { height: 158px;}
+.dkz dt { float: left;}
+.dkz dt img { width: 199px; height: 129px; display: block;}
+.dkz dd { float: left; padding-left: 27px; width: 242px; font-size: 15px; color: #0e0e0e; font-weight: bold;}
+.dkz dd a{color: #0e0e0e;}
+.dkz dd p { font-size: 13px; color: #666666; line-height: 24px; font-weight: normal; margin-top: 10px;}
+.dkzp a { display: block; font-size: 13px; color: #666666; line-height: 20px; height: 20px; margin-bottom: 16px;}
+.dkzp a span { float: left; display: block; width: 55px; height: 20px; background: url(../images/dkzk.jpg) no-repeat; margin-right: 17px; font-size: 13px; color: #FFFFFF; text-align: center; line-height: 20px;}
+.dkzp a:hover span, .dkzp .cur span { background: url(../images/dkzk1.jpg) no-repeat;}
+
+.dky { float: right; width: 482px;}
+.dky h4 { height: 41px; overflow: hidden; background: #666666; font-weight: normal; margin-bottom: 33px;}
+.dky h4 span { display: block; float: left;}
+.dky h4 span a { display: block; float: left; width: 138px; height: 42px; font-size: 18px; color: #FFFFFF; text-align: center; line-height: 42px;}
+.dky h4 span a:hover, .dky h4 span .cur { background: #cf0b0f;}
+.dky h4 em { float: right;}
+.dky h4 em a { font: 12px Arial; color: #FFFFFF; text-transform: uppercase; line-height: 42px; margin-right: 15px;}
+.dky dl { height: 100px;}
+.dky dt { padding-left: 37px; background: url(../images/dkw.jpg) no-repeat left center;}
+.dky dt a { font-size: 15px; color: #000000; font-weight: bold;}
+.dky dd { padding-left: 37px; background: url(../images/dkd.jpg) no-repeat left 2px; font-size: 13px; color: #666666; margin-top: 12px; line-height: 24px;}
+
+.dkk2 { height: 117px; padding-top: 50px;}
+.dkk2 li { float: left; margin:0 58px; display: inline;}
+.dkk2 li em { display: block; float: left;}
+.dkk2 li em img { display: block; width: 70px; height: 57px;}
+.dkk2 li p {float: left; font-size: 22px; color: #000000; margin-left: 15px; line-height: 22px;}
+.dkk2 li p span { display: block; font-size: 17px; color: #ffffff; width: 121px; height: 27px; background: #cf0b0f; text-align: center; line-height: 27px; margin-top: 5px;}
+/**/
+
+
+/**/
+
+
+
+/**/
+
+
+
+/**/
+
+
+
+/**/
+
+
+
+/**/
+
+
+
+/**/
